@@ -1,0 +1,39 @@
+.caption {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.transaction_history {
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+.tr {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.td {
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.tr:nth-child(odd) {
+    background: white;
+}
+
+.tr:nth-child(even) {
+    background: rgb(112, 228, 127);
+}
+
+.thead {
+    background-color: rgb(38, 202, 231);
+    color: snow;
+}
