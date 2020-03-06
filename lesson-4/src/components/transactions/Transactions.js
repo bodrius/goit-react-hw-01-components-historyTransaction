@@ -2,6 +2,7 @@ import React from "react";
 import ListTransactions from "./ListTransactions";
 import transactions from "./transactions.json";
 import css from "./transactions.module.css";
+
 const Transactions = props => {
   console.log(props);
   return (
@@ -18,12 +19,13 @@ const Transactions = props => {
 
         <tbody>
           {transactions.map(obj => (
-            <ListTransactions list={obj} key={obj.id} />
+            <ListTransactions list={obj} key={obj.id}/>
           ))}
         </tbody>
       </table>
     </>
   );
 };
+
 
 export default Transactions;
